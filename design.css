@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    background: linear-gradient(90deg, LightGray, GhostWhite, LightCyan);
+    color: rgb(43, 37, 37);
+    font-family: 'Courier Prime', monospace;
+}
+
+#card {
+    width: 380px;
+    height: 500px;
+    margin: 5rem auto;
+    background: oldlace;
+    border: outset 5px mintcream;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card img:nth-child(1) {
+    width: 100%;
+    height: 200px;
+    z-index: 2;
+}
+
+#card img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    border: outset 3px MintCream;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 147px;
+    z-index: 3;
+}
+#card #name {
+    margin-top: 5.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#card #profession {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#card .information {
+    margin-top: 0.5rem;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.information span {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information span {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
