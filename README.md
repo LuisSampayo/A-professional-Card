@@ -1,2 +1,3 @@
-# A-professional-Card
-I´ve designed a professional card.
+Welcome to my first project using HTML and CSS.
+
+It is a professional card taking into account different styles and displays. 
